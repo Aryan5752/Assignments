@@ -1,0 +1,28 @@
+body{
+	background-color: #f0c0cb;
+}
+
+h1{
+	background-color: #b3ffa3;
+}
+
+.box{
+	background-color: #5fedfa;
+	width: 200px;
+	height: 50px;
+	padding: 35px 15px;
+	border: 5px solid black;
+	margin: 50px 600px;
+}
+.flex{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: solid black;
+	padding: 5px;
+}
+img{
+	height: 350px;
+	width: 350px;
+}
