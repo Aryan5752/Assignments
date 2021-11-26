@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Creating Object in JS</title>
+	<style type="text/css">
+		
+	body {
+  
+  background: #48494a;
+}
+    h2{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+	</style>
+</head>
+<body>
+  <p>Name:Ravi Ranjan Kumar <br>
+  Roll:-2006090</p>
+	<h2><center>Check console to know Personal Info:</center></h2>
+	<script type="text/javascript">
+		function Person(fn, ln, office) {
+  this.firstName = fn;
+  this.lastName = ln;
+  this.officeAdress = office;
+}
+const details = new Person('firstName:','lastName:','officeAdress:');
+const personOne = new Person('Ravi', 'Ranjan', 'Amazon, Chennai');
+const personTwo = new Person('Samay', 'Patel','Infosys, Bengaluru');
+const personThree = new Person('Anjani','Das','HCL, Noida');
+console.log(details.firstName+" "+details.lastName+" "+details.officeAdress);
+console.log(personOne.firstName+" "+personOne.lastName+" "+personOne.officeAdress);
+console.log(personTwo.firstName+" "+personTwo.lastName+" "+personTwo.officeAdress);
+console.log(personThree.firstName+" "+personThree.lastName+" "+personThree.officeAdress);
+	</script>
+</body>
+</html>
